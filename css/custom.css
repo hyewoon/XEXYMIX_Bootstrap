@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+*{
+    font-size: 20px;
+}
+
+a{
+    color:inherit;
+}
+.bg-black{
+    background-color: black;
+}
+
+.new{
+    align-items: center;
+}
+/*----index -------*/
+.main-logo{
+    box-sizing: 0;
+}
+.carousel{
+margin-top: 10rem;
+margin-bottom: 5rem;
+}
+
+.img-fluid{
+    max-width: 100%;
+}
+
+.main-item {
+    margin-top: 10rem;
+}
+
+/* .top img{
+    margin-left: 45px;
+} */
+
+/* .item-desc{
+    padding-top : 5rem;
+    font-size: 22px;
+} */
+.item-details{
+    margin-top: 10rem;
+}
+
+.item-detail{
+    margin-top: 4rem;
+}
+
+.text-center btn{
+    font-size: 20px;
+}
+#company{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin:0px;
+}
+.address{
+    font-size: 12px;
+}
+
+.footer-logo{
+    width:100%;
+    height: 100%;
+}
+
+
+/* .container {
+    background-color:yellow;
+}  */
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*-----buy-----*/
+.item-name {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.item-purchase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.button-purchase{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.buy-btn{
+    padding: 25px 85px;
+}
