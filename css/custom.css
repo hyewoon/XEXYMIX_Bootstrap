@@ -66,9 +66,9 @@ margin-bottom: 5rem;
 }
 
 
-/* .container {
+  /* .container {
     background-color:yellow;
-}  */
+}    */
 
 .item{
     display: flex;
@@ -83,6 +83,12 @@ margin-bottom: 5rem;
     font-weight: bold;
 }
 
+.buy-detail{
+    display: flex;
+    flex-direction: column;
+    
+}
+
 .item-purchase{
     display: flex;
     flex-direction: column;
@@ -95,5 +101,5 @@ margin-bottom: 5rem;
 }
 
 .buy-btn{
-    padding: 25px 85px;
+    padding: 1rem 4rem;
 }
