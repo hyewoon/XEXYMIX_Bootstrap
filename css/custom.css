@@ -7,6 +7,10 @@
 a{
     color:inherit;
 }
+
+li{
+    list-style: none;
+}
 .bg-black{
     background-color: black;
 }
@@ -66,9 +70,6 @@ margin-bottom: 5rem;
 }
 
 
-  /* .container {
-    background-color:yellow;
-}    */
 
 .item{
     display: flex;
@@ -97,9 +98,15 @@ margin-bottom: 5rem;
 .button-purchase{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     
 }
 
 .buy-btn{
     padding: 1rem 4rem;
+}
+
+/* --sign-up */
+.list{
+    display: flex;
 }
